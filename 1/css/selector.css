@@ -1,0 +1,18 @@
+.circuloRojo,.circuloAmarillo,.circuloAzul
+{
+    height: 5vh;
+    width: 5vw;
+    border-radius:100px;
+}
+.circuloRojo
+{
+    background-color: red;
+}
+.circuloAmarillo
+{
+    background-color: yellow;
+}
+.circuloAzul
+{
+    background-color: blue;
+}

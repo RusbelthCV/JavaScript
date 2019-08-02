@@ -1,0 +1,14 @@
+.container > .row:first-child > div > .black
+{
+    border-radius: 100px;
+    height: 5vh;
+    width: 5vh;
+    background-color: black;
+}
+.rojo
+{
+    border-radius: 100px;
+    height: 5vh;
+    width: 5vh;
+    background-color: red;
+}
