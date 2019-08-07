@@ -1,0 +1,27 @@
+.product
+{
+    position: relative;
+    height: auto;
+    width: 15vw;
+}
+.action
+{
+    height: auto;
+    width: 3vw;
+    position: absolute;
+    left: 177px;
+    color:white;
+}
+.product:hover
+{
+    cursor: pointer;
+}
+.badge
+{
+    background-color: red;
+}
+.div-white
+{
+    background-color: white;
+    height: 5px;
+}
