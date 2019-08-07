@@ -12,6 +12,7 @@ $(document).ready(function()
             console.log("Valor inicial: "+likes);
             console.log("Suma: "+suma);
             $(".contador").text(suma);
+            $(like).addClass("animated bounce");
         }
         else
         {

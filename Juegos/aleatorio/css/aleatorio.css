@@ -1,0 +1,12 @@
+.ball
+{
+    height: 15vh;
+    border-radius: 50%;
+    width: 5vw;
+    background-color: blueviolet;
+}
+
+.ball h4{
+    line-height: 15vh;
+    color:white;
+}
