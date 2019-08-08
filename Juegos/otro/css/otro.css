@@ -2,3 +2,18 @@ span:hover
 {
     cursor: pointer;
 }
+.marcador
+{
+    border:2px solid black;
+    border-radius: 25px;
+    height: 10vh;
+}
+.marcador > p > span
+{
+    line-height: 10vh;
+}
+.imagenTiro
+{
+    height: auto;
+    width: 15vw;
+}

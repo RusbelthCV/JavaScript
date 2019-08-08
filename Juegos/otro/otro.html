@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Title</title>
+    <title>Piedra,Papel,Tijera</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -16,22 +16,43 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="css/otro.css">
-        <script src="js/otro.js"></script>
+    <link rel="stylesheet" href="css/otro.css">
+    <link rel="shortcut icon" type="image/png" href="img/icono.png"/>
+    <script src="js/otro.js"></script>
 </head>
 
 <body>
     <div class="container">
+        <div class="row mt-5">
+            <div class="col-12 text-center">
+                <h1></h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8 marcador text-center mt-5">
+                <p>
+                    <span class="marcadorJugador">0</span><span>-</span><span class="marcadorComputadora">0</span>
+                </p>
+            </div>
+            <div class="col-2"></div>
+        </div>
+        <div class="row d-flex justify-content-around">
+            <div class="col-6 tiroJugador mt-5 text-center">
+                <img src="" alt="" class="img-fluid imagenTiro">
+            </div>
+            <div class="col-6 tiroComputadora mt-5 text-center">
+                <img src="" alt="" class="img-fluid imagenTiro">
+            </div>
+        </div>
         <div class="row my-5">
-            <div class="col-4">
-                <span>Piedra</span>
+            <div class="col-4"></div>
+            <div class="col-4 p-3 mx-auto d-flex justify-content-around">
+                <button class="btn btn-primary">Piedra</button>
+                <button class="btn btn-primary">Papel</button>
+                <button class="btn btn-primary">Tijera</button>
             </div>
-            <div class="col-4">
-                <span>Papel</span>
-            </div>
-            <div class="col-4">
-                <span>Tijera</span>
-            </div>
+            <div class="col-4"></div>
         </div>
     </div>
 </body>
