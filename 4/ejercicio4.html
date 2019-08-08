@@ -45,23 +45,16 @@
             let buttonMinus = $("button").get(0);
             let buttonPlus = $("button").get(1);
 
-            $("button").click(function () {
-                let valueActual = $("input").val();
-                let newValue;
-                let buttonMinus = $
-                $(buttonMinus).click(function()
-                {
-                    newValue = valueActual - 1;
-                    console.log("Restando");
-                    console.log($(this));
-                }); 
-                $(buttonPlus.click(function()
-                {
-                    newValue = valueActual + 1;
-                    console.log("Sumando");
-                });
-                console.log(newValue);
-
+            $(buttonPlus).click(function()
+            {
+                let valueActual = parseInt($("input").val());
+                let newValue = valueActual+1;
+                $("input").val(newValue);
+            });
+            $(buttonMinus).click(function()
+            {
+                let valueActual = parseInt($("input").val());
+                let newValue = valueActual-1;
                 $("input").val(newValue);
             });
         });

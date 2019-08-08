@@ -7,6 +7,9 @@ span:hover
     border:2px solid black;
     border-radius: 25px;
     height: 10vh;
+    font-family: 'Jacques Francois Shadow', cursive;
+    font-weight: bold;
+    font-size: 40px;
 }
 .marcador > p > span
 {
@@ -16,4 +19,5 @@ span:hover
 {
     height: auto;
     width: 15vw;
+    max-width: 15vw;
 }
