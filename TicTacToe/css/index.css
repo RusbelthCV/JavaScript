@@ -1,0 +1,23 @@
+.cruz,.circulo,.posicion,.jugadorCruz,.jugadorCirculo,.fondo
+{
+    height: 50px;
+    width: 50px;
+}
+.jugadorCruz
+{
+    background-image: url("../img/cruz.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.jugadorCirculo
+{
+    background-image: url("../img/circulo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.fondo
+{
+    background-image: url("../img/fondo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
